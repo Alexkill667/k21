@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Війти в систему</title>
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/sign-in.css">
+</head>
+<body>
+    <nav class="header">
+        <div class="plata-left">
+            <img src="img/plata.png" alt="" class="plata-back">
+            <div class="plata-front">
+                <img src="img/plata-front.png" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <div class="logo-cont">
+                <img src="img/qr.png" alt="LOGO" class="logo">
+                <img src="img/qr.png" alt="LOGO" class="logo-glow">
+            </div>
+            
+            <div class="menu">
+                <div class="menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-items">
+                    <div class="menu-item main">
+                        <div class="drop">Головна</div>
+                        <div class="dropdown-cont">
+                            <a href="#">історія кафедри</a>
+                            <a href="#">особовий склад кафедри</a>
+                        </div>
+                    </div>
+                    <div class="menu-item study">
+                        <div class="drop">Навчання</div>
+                        <div class="dropdown-cont">
+                            <a href="#">освітній процес</a>
+                            <a href="#">нормативні документи</a>
+                            <a href="#">дисципліни кафедри</a>
+                            <a href="#">курсова підготовка</a>
+                            <a href="#">розклад занять</a>
+                        </div>
+                    </div>
+                    <div class="menu-item scince">
+                        <div class="drop">Наукова робота</div>
+                        <div class="dropdown-cont">
+                            <a href="#">ад'юнктура, докторантура</a>
+                            <a href="#">науково-дослідні роботи</a>
+                            <a href="#">конференції, семінари</a>
+                        </div>
+                    </div>
+                    <div class="menu-item metodik">
+                        <div class="drop">Методична робота</div>
+                        <div class="dropdown-cont">
+                            <a href="#">навчально-методичні видання кафедри</a>
+                            <a href="#">......</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="menu-lang">
+                    <div class="ua"></div>
+                    <div class="en"></div>
+                </div> -->
+                <div class="sign">
+                    <a href="signUp.html"><button class="sign-up">Зареєструватись</button></a>
+                </div>
+                </div>
+                
+        </div>
+        <div class="plata-right">
+            <img src="img/plata-right.png" alt="" class="plata-back">
+            <div class="plata-front">
+                <img src="img/plata-right-front.png" alt="">
+            </div>
+        </div>
+    </nav>
+    <div class="back">
+        <div id="3d-graph"></div>
+    </div>
+
+    <section class="sign-in-border">
+        <h1 class="sign-in-header">Війти</h1>
+        <input type="text" placeholder="Введіть ваш логін" class="sign-in-login">
+        <input type="password" placeholder="Введіть ваш пароль" class="sign-in-pass">
+        <div class="sign-in-btn">
+            <a href="#/" class="btn">
+                <span>Війти</span>
+                <svg width="250" height="80" viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg">
+                  <rect class="line1" x="10" y="4" width="379" height="112" rx="59.5" />
+                  <rect class="line2" x="10" y="4" width="379" height="112" rx="59.5" />
+                </svg>
+              </a>
+        </div>
+    </section>
+    
+    <div class="header-back"></div>
+    <script src="//unpkg.com/3d-force-graph"></script>
+    <script src='https://unpkg.com/3d-force-graph@1.66.6/dist/3d-force-graph.min.js'></script>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>

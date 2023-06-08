@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department #21</title>
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+    <script src="//unpkg.com/3d-force-graph"></script>
+    <script src='https://unpkg.com/3d-force-graph@1.66.6/dist/3d-force-graph.min.js'></script>
+    <script type="module" src="js/main.js"></script>
+    <nav class="header">
+        <div class="plata-left">
+            <img src="img/plata.png" alt="" class="plata-back">
+            <div class="plata-front">
+                <img src="img/plata-front.png" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <div class="logo-cont">
+                <img src="img/qr.png" alt="LOGO" class="logo">
+                <img src="img/qr.png" alt="LOGO" class="logo-glow">
+            </div>
+            
+            <div class="menu">
+                <div class="menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-items">
+                    <div class="menu-item main">
+                        <div class="drop common">Головна</div>
+                        <div class="dropdown-cont">
+                            <a href="#" class="history">історія кафедри</a>
+                            <a href="#" class="person">особовий склад кафедри</a>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="drop study">Навчання</div>
+                        <div class="dropdown-cont">
+                            <a href="#" class="procces">освітній процес</a>
+                            <a href="#" class="docs">нормативні документи</a>
+                            <a href="#" class="lessons">дисципліни кафедри</a>
+                            <a href="#" class="prepearing">курсова підготовка</a>
+                            <a href="#" class="plan">розклад занять</a>
+                        </div>
+                    </div>
+                    <div class="menu-item scince">
+                        <div class="drop work">Наукова робота</div>
+                        <div class="dropdown-cont">
+                            <a href="#" class="doc">ад'юнктура, докторантура</a>
+                            <a href="#" class="dev">науково-дослідні роботи</a>
+                            <a href="#" class="conf">конференції, семінари</a>
+                        </div>
+                    </div>
+                    <div class="menu-item metodik">
+                        <div class="drop method">Методична робота</div>
+                        <div class="dropdown-cont">
+                            <a href="#" class="posts">навчально-методичні видання кафедри</a>
+                            <a href="#">......</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-lang">
+                    <img src="img/change-lang.png" alt="change-lang" class="change-lang rotated">
+                    <div class="lg hidden">UA</div>
+                    <div class="lg active">EN</div>
+                </div>
+                <div class="sign">
+                    <a href="signIn.html"><button class="sign-in">Війти</button></a>
+                    <a href="signUp.html"><button class="sign-up">Зареєструватись</button></a>
+                </div>
+            </div>
+                
+        </div>
+        <div class="plata-right">
+            <img src="img/plata-right.png" alt="" class="plata-back">
+            <div class="plata-front">
+                <img src="img/plata-right-front.png" alt="">
+            </div>
+        </div>
+    </nav>
+    <div class="back">
+        <div id="3d-graph"></div>
+    </div>
+    
+    <div class="header-back"></div>
+    <section class="slider">
+        
+        <div class="content">
+            <div class="slide">
+                <div class="slide-left"></div>
+                <div class="slide-right"></div>
+            </div>
+            <div class="slider-items">
+                <div class="slider-item left "> <h1 class="item1-tit">Lorem</h1> <p class="item1-cont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est excepturi atque doloremque, blanditiis rem quae ut molestias nobis alias. Minus rem quam cum perspiciatis aliquam aut sequi ipsum porro omnis.</p><button class="play play1">Перейти</button></div>
+                <div class="slider-item active "> <h1 class="item2-tit">Lorem</h1> <p class="item2-cont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est excepturi atque doloremque, blanditiis rem quae ut molestias nobis alias. Minus rem quam cum perspiciatis aliquam aut sequi ipsum porro omnis.</p><button class="play play2">Перейти</button></div>
+                <div class="slider-item right "> <h1 class="item3-tit">Lorem</h1> <p class="item3-cont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est excepturi atque doloremque, blanditiis rem quae ut molestias nobis alias. Minus rem quam cum perspiciatis aliquam aut sequi ipsum porro omnis.</p><button class="play play3">Перейти</button></div>
+                <div class="slider-item hidden "> <h1 class="item4-tit">Lorem</h1> <p class="item4-cont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est excepturi atque doloremque, blanditiis rem quae ut molestias nobis alias. Minus rem quam cum perspiciatis aliquam aut sequi ipsum porro omnis.</p><button class="play play4">Перейти</button></div>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="content">
+            <h1 class="title">Lorem Ipsum</h1>
+            <p>
+            <img src="img/qr.png" alt="" class="img-1">
+            <div class="cont"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea perferendis voluptate quis vero delectus animi eveniet aperiam ducimus, suscipit omnis minus labore iste quia quidem nam nisi rem eos eaque.
+            Fugiat, id dolorem commodi eius omnis doloribus distinctio iusto autem. Sapiente deleniti laborum nesciunt debitis veniam dolorem, quo explicabo sed ipsum. Possimus labore impedit quis natus veritatis officia! Voluptates, esse.
+            Dolor accusamus praesentium molestiae culpa quia odit tenetur quibusdam ipsam perspiciatis eum saepe, voluptas mollitia consequatur, accusantium repudiandae, consequuntur at. Non veniam beatae nemo neque molestiae vitae facilis officiis eos.
+            Quisquam optio officiis quibusdam perferendis, eaque corporis iste aspernatur est maxime consectetur numquam quam beatae praesentium doloribus sed exercitationem porro ex animi voluptate veniam deserunt! Perferendis debitis soluta aperiam modi?
+            Atque omnis ratione earum! Vel possimus numquam at animi, est libero perspiciatis quod! Excepturi saepe sequi quod repudiandae facilis maxime, corrupti sapiente illum aliquam suscipit ut odio quia in libero!
+            At laboriosam, maiores praesentium vel hic qui eos doloribus facere, repellat nemo illo, eum sequi natus ipsum iste in perspiciatis quam necessitatibus nobis? Nostrum quidem nihil saepe voluptate perspiciatis minima!
+            Fugiat deleniti quos tempora adipisci odio delectus cumque quae ab iste consectetur, error, ut explicabo sed quas labore molestiae sint? Possimus ut sit blanditiis aliquam iusto obcaecati, temporibus ullam ipsam.
+            Fugit at quae eos libero earum, sequi eius maiores voluptate iure, deleniti incidunt et aliquam natus vel odit facilis minus molestiae reiciendis nemo alias totam delectus cum. Corrupti, praesentium eligendi!
+            Assumenda iste laborum eveniet molestias consequatur itaque quia architecto optio iure, laboriosam hic nostrum adipisci. Nostrum ullam cupiditate cumque, consectetur nesciunt totam amet repellendus eum adipisci tenetur saepe, inventore voluptate?
+            Officiis aperiam commodi quae unde blanditiis facilis delectus atque. Consequatur recusandae ut laborum sint id placeat itaque mollitia debitis odit. Assumenda recusandae molestias impedit quidem quam delectus eius a temporibus!</div></p>
+        </div>
+    </section>
+    <script src="js/lang.js"></script>
+</body>
+</html>
